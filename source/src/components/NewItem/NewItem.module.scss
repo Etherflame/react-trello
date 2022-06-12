@@ -1,0 +1,17 @@
+.newItem {
+  &__button {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    background-color: transparent;
+    color: #676e7d;
+    border: none;
+    cursor: pointer;
+
+    span {
+      margin-left: 0.5rem;
+    }
+  }
+}

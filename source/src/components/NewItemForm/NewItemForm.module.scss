@@ -1,0 +1,49 @@
+.form {
+  margin-top: 0.5rem;
+
+  textarea {
+    font-family: inherit;
+    font-size: 0.8rem;
+    resize: none;
+    width: 100%;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+      rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    color: #454345;
+  }
+
+  &__buttons {
+    margin-top: 0.5rem;
+    padding: 0.5rem 0rem;
+    display: flex;
+    align-items: center;
+
+    button {
+      font-family: inherit;
+      cursor: pointer;
+      border: none;
+
+      svg {
+        display: block;
+      }
+
+      &:first-child {
+        background-color: #0079bf;
+        border-radius: 0.25rem;
+        font-size: 0.9rem;
+        padding: 0.5rem;
+        color: white;
+        margin-right: 0.5rem;
+      }
+
+      &:last-child {
+        color: #6b778c;
+        background-color: transparent;
+        text-align: center;
+        font-size: 1.25rem;
+      }
+    }
+  }
+}

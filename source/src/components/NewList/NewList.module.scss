@@ -1,0 +1,22 @@
+.newList {
+  background-color: #dde0e4;
+  margin: 1rem 0.5rem;
+  padding: 0.75rem;
+  width: 270px;
+  border-radius: 0.25rem;
+
+  &__button {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 500;
+    background-color: transparent;
+    color: #676e7d;
+    border: none;
+    cursor: pointer;
+
+    span {
+      margin-left: 0.5rem;
+    }
+  }
+}
